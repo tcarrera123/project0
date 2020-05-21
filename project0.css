@@ -1,7 +1,10 @@
-p {
-  color: red;
+p, h1 {
+  color: rgb(0,255,238);
   font-family: verdana;
-  font-size: 20px;
+  font-size: 100px;
   font-weight: bold;
   text-align: center;
+}
+html{
+  background-color: rgb(255,130,102)
 }
