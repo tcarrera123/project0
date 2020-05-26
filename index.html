@@ -11,7 +11,12 @@
       @media (max-width: 768px) {
         html { font-size:50px; }
       }
-
+      @media (max-width: 576px) {
+        #leo { margin-left: 0px; }
+      }
+      @media (max-width: 576px) {
+        #cross { margin-left: 50px; }
+      }
       .parent {
         text-align: center;
       }
@@ -30,6 +35,9 @@
       }
       #background {
         background-color: white
+      }
+      #archie, #leo, #cross {
+        text-align: center;
       }
    </style>
    <div id="background">
@@ -92,25 +100,18 @@
       <strong><p>Famous Civil Engineers:</p></strong>
   <div class="container">
     <div class="row align-items-start">
-      <div class="col-4">
+      <div class="col-4 ">
         <img class="object-fit" src="leonardo.png">
+        <strong><p id="leo">Leonardo da Vinci</p></strong>
       </div>
-      <div class="col-4">
+      <div class="col-4 offset-4">
         <img class="object-fit" src="cross.png">
+        <strong><p id="cross">Hardy Cross</p></strong>
       </div>
-      <div class="col-4">
+      <div class="col">
+      <div class="col align-self-center">
         <img class="object-fit" src="archie.png">
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-4">
-        <strong>Leonardo da Vinci</strong>
-      </div>
-      <div class="col-4">
-        <strong>Hardy Cross</strong>
-      </div>
-      <div class="col-4">
-        <strong>Archie Alexander</strong>
+        <strong><p id="archie">Archie Alexander</p></strong>
       </div>
     </div>
     <div class="row align-items-end">
