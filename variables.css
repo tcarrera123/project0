@@ -1,5 +1,35 @@
 .para {
-  background-color: beige;
-  border: 4px solid black; }
+  background-color: Ivory;
+  border: 4px solid black;
+  padding: 10px; }
+
+body .parent {
+  text-align: center; }
+body .parent > ul {
+  display: inline-block; }
+body .alert alert-primary {
+  text-align: center; }
+body .object-fit {
+  width: auto;
+  height: 300px; }
+body #background {
+  background-color: white; }
+body #archie, body #leo, body #cross {
+  text-align: center; }
+
+#leo, #cross, #archie {
+  border: 2px solid black;
+  padding: 20px;
+  color: black; }
+
+#leo, #cross {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: Ivory; }
+
+#archie {
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: Ivory; }
 
 /*# sourceMappingURL=variables.css.map */
